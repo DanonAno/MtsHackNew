@@ -11,3 +11,14 @@ target 'MtsHackNew' do
     pod 'RxCocoa'
     pod 'RxDataSources'
 end
+
+target 'MtsHackNew-tvOS' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+    # Pods for MTSKionHack-tvOS
+    pod 'SnapKit'
+    pod 'RxSwift'
+    pod 'RxCocoa'
+    pod 'RxDataSources'
+end

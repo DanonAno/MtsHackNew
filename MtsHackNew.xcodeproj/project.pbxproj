@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0465EEA6DEBBAA93D8918F58 /* Pods_MtsHackNew_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343793CBD5CE2D5FA4CC7D10 /* Pods_MtsHackNew_tvOS.framework */; };
 		A5F4DA5B29D47C1A00A086C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F4DA5929D47C1A00A086C1 /* LaunchScreen.storyboard */; };
 		A5F4DA6329D47C9400A086C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F4DA6229D47C9400A086C1 /* AppDelegate.swift */; };
 		A5F4DA6529D47CB500A086C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F4DA6429D47CB500A086C1 /* SceneDelegate.swift */; };
@@ -19,10 +20,25 @@
 		A5F4DA7329D47D8400A086C1 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F4DA7229D47D8400A086C1 /* ViewModelType.swift */; };
 		A5F4DA7529D47D9800A086C1 /* PhoneValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F4DA7429D47D9800A086C1 /* PhoneValidation.swift */; };
 		A5F4DA7729D47DB000A086C1 /* Observable+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F4DA7629D47DB000A086C1 /* Observable+Ext.swift */; };
+		A5F4DA7F29D4868800A086C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F4DA7E29D4868800A086C1 /* AppDelegate.swift */; };
+		A5F4DA8429D4868800A086C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F4DA8229D4868800A086C1 /* Main.storyboard */; };
+		A5F4DA8629D4868A00A086C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F4DA8529D4868A00A086C1 /* Assets.xcassets */; };
+		A5F4DA8929D4868A00A086C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F4DA8729D4868A00A086C1 /* LaunchScreen.storyboard */; };
+		A5F4DA8E29D486AB00A086C1 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F4DA8D29D486AB00A086C1 /* Application.swift */; };
+		A5F4DA9029D4873000A086C1 /* BaseNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F4DA8F29D4873000A086C1 /* BaseNavigator.swift */; };
+		A5F4DA9229D4874A00A086C1 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F4DA9129D4874A00A086C1 /* VideoPlayerViewController.swift */; };
+		A5F4DA9429D4875300A086C1 /* Comments.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F4DA9329D4875300A086C1 /* Comments.swift */; };
+		A5F4DA9629D4876A00A086C1 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F4DA9529D4876A00A086C1 /* RegisterViewController.swift */; };
+		A5F4DA9829D4877800A086C1 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F4DA9729D4877800A086C1 /* RegisterViewModel.swift */; };
+		A5F4DA9A29D4878900A086C1 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F4DA9929D4878900A086C1 /* ViewModelType.swift */; };
+		A5F4DA9C29D4879700A086C1 /* PhoneValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F4DA9B29D4879700A086C1 /* PhoneValidation.swift */; };
+		A5F4DA9E29D487AB00A086C1 /* Observable+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F4DA9D29D487AB00A086C1 /* Observable+Ext.swift */; };
 		DE33C6A8B2AFDCC42AF2549A /* Pods_MtsHackNew.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA8498616B21816F088842C /* Pods_MtsHackNew.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		078AD9D2E391E42FC5FCB3F2 /* Pods-MtsHackNew-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MtsHackNew-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-MtsHackNew-tvOS/Pods-MtsHackNew-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		343793CBD5CE2D5FA4CC7D10 /* Pods_MtsHackNew_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MtsHackNew_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4563CB3001754D05483407CD /* Pods-MtsHackNew.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MtsHackNew.debug.xcconfig"; path = "Target Support Files/Pods-MtsHackNew/Pods-MtsHackNew.debug.xcconfig"; sourceTree = "<group>"; };
 		488A4A84F7526BF14E67D406 /* Pods-MtsHackNew.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MtsHackNew.release.xcconfig"; path = "Target Support Files/Pods-MtsHackNew/Pods-MtsHackNew.release.xcconfig"; sourceTree = "<group>"; };
 		7AA8498616B21816F088842C /* Pods_MtsHackNew.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MtsHackNew.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +56,21 @@
 		A5F4DA7229D47D8400A086C1 /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
 		A5F4DA7429D47D9800A086C1 /* PhoneValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneValidation.swift; sourceTree = "<group>"; };
 		A5F4DA7629D47DB000A086C1 /* Observable+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+Ext.swift"; sourceTree = "<group>"; };
+		A5F4DA7C29D4868800A086C1 /* MtsHackNew-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MtsHackNew-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F4DA7E29D4868800A086C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5F4DA8329D4868800A086C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5F4DA8529D4868A00A086C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5F4DA8829D4868A00A086C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5F4DA8D29D486AB00A086C1 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		A5F4DA8F29D4873000A086C1 /* BaseNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigator.swift; sourceTree = "<group>"; };
+		A5F4DA9129D4874A00A086C1 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		A5F4DA9329D4875300A086C1 /* Comments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comments.swift; sourceTree = "<group>"; };
+		A5F4DA9529D4876A00A086C1 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A5F4DA9729D4877800A086C1 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		A5F4DA9929D4878900A086C1 /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		A5F4DA9B29D4879700A086C1 /* PhoneValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneValidation.swift; sourceTree = "<group>"; };
+		A5F4DA9D29D487AB00A086C1 /* Observable+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+Ext.swift"; sourceTree = "<group>"; };
+		D51EBD02C127F294272875CB /* Pods-MtsHackNew-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MtsHackNew-tvOS.release.xcconfig"; path = "Target Support Files/Pods-MtsHackNew-tvOS/Pods-MtsHackNew-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +82,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A5F4DA7929D4868800A086C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0465EEA6DEBBAA93D8918F58 /* Pods_MtsHackNew_tvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -59,6 +98,8 @@
 			children = (
 				4563CB3001754D05483407CD /* Pods-MtsHackNew.debug.xcconfig */,
 				488A4A84F7526BF14E67D406 /* Pods-MtsHackNew.release.xcconfig */,
+				078AD9D2E391E42FC5FCB3F2 /* Pods-MtsHackNew-tvOS.debug.xcconfig */,
+				D51EBD02C127F294272875CB /* Pods-MtsHackNew-tvOS.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -67,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				7AA8498616B21816F088842C /* Pods_MtsHackNew.framework */,
+				343793CBD5CE2D5FA4CC7D10 /* Pods_MtsHackNew_tvOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -75,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				A5F4DA4D29D47C1800A086C1 /* MtsHackNew */,
+				A5F4DA7D29D4868800A086C1 /* MtsHackNew-tvOS */,
 				A5F4DA4C29D47C1800A086C1 /* Products */,
 				51BBF67AA7128E7259114D9D /* Pods */,
 				7C2F2B7F3DEC48DE57FD7EA8 /* Frameworks */,
@@ -85,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				A5F4DA4B29D47C1800A086C1 /* MtsHackNew.app */,
+				A5F4DA7C29D4868800A086C1 /* MtsHackNew-tvOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,6 +153,26 @@
 			path = MtsHackNew;
 			sourceTree = "<group>";
 		};
+		A5F4DA7D29D4868800A086C1 /* MtsHackNew-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				A5F4DA7E29D4868800A086C1 /* AppDelegate.swift */,
+				A5F4DA8D29D486AB00A086C1 /* Application.swift */,
+				A5F4DA8F29D4873000A086C1 /* BaseNavigator.swift */,
+				A5F4DA9129D4874A00A086C1 /* VideoPlayerViewController.swift */,
+				A5F4DA9329D4875300A086C1 /* Comments.swift */,
+				A5F4DA9529D4876A00A086C1 /* RegisterViewController.swift */,
+				A5F4DA9729D4877800A086C1 /* RegisterViewModel.swift */,
+				A5F4DA9929D4878900A086C1 /* ViewModelType.swift */,
+				A5F4DA9B29D4879700A086C1 /* PhoneValidation.swift */,
+				A5F4DA9D29D487AB00A086C1 /* Observable+Ext.swift */,
+				A5F4DA8229D4868800A086C1 /* Main.storyboard */,
+				A5F4DA8529D4868A00A086C1 /* Assets.xcassets */,
+				A5F4DA8729D4868A00A086C1 /* LaunchScreen.storyboard */,
+			);
+			path = "MtsHackNew-tvOS";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,6 +195,25 @@
 			productReference = A5F4DA4B29D47C1800A086C1 /* MtsHackNew.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A5F4DA7B29D4868800A086C1 /* MtsHackNew-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F4DA8A29D4868A00A086C1 /* Build configuration list for PBXNativeTarget "MtsHackNew-tvOS" */;
+			buildPhases = (
+				CF3EE2D6AD2D3158E58FB226 /* [CP] Check Pods Manifest.lock */,
+				A5F4DA7829D4868800A086C1 /* Sources */,
+				A5F4DA7929D4868800A086C1 /* Frameworks */,
+				A5F4DA7A29D4868800A086C1 /* Resources */,
+				BFDE9A3D13D4F2225F8324E1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MtsHackNew-tvOS";
+			productName = "MtsHackNew-tvOS";
+			productReference = A5F4DA7C29D4868800A086C1 /* MtsHackNew-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -144,6 +227,9 @@
 					A5F4DA4A29D47C1800A086C1 = {
 						CreatedOnToolsVersion = 14.0;
 						LastSwiftMigration = 1400;
+					};
+					A5F4DA7B29D4868800A086C1 = {
+						CreatedOnToolsVersion = 14.0;
 					};
 				};
 			};
@@ -161,6 +247,7 @@
 			projectRoot = "";
 			targets = (
 				A5F4DA4A29D47C1800A086C1 /* MtsHackNew */,
+				A5F4DA7B29D4868800A086C1 /* MtsHackNew-tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -171,6 +258,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5F4DA5B29D47C1A00A086C1 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F4DA7A29D4868800A086C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F4DA8929D4868A00A086C1 /* LaunchScreen.storyboard in Resources */,
+				A5F4DA8629D4868A00A086C1 /* Assets.xcassets in Resources */,
+				A5F4DA8429D4868800A086C1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +313,45 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MtsHackNew/Pods-MtsHackNew-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BFDE9A3D13D4F2225F8324E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MtsHackNew-tvOS/Pods-MtsHackNew-tvOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MtsHackNew-tvOS/Pods-MtsHackNew-tvOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MtsHackNew-tvOS/Pods-MtsHackNew-tvOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF3EE2D6AD2D3158E58FB226 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MtsHackNew-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -237,6 +373,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A5F4DA7829D4868800A086C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F4DA9029D4873000A086C1 /* BaseNavigator.swift in Sources */,
+				A5F4DA9429D4875300A086C1 /* Comments.swift in Sources */,
+				A5F4DA9C29D4879700A086C1 /* PhoneValidation.swift in Sources */,
+				A5F4DA9829D4877800A086C1 /* RegisterViewModel.swift in Sources */,
+				A5F4DA9E29D487AB00A086C1 /* Observable+Ext.swift in Sources */,
+				A5F4DA9229D4874A00A086C1 /* VideoPlayerViewController.swift in Sources */,
+				A5F4DA9A29D4878900A086C1 /* ViewModelType.swift in Sources */,
+				A5F4DA9629D4876A00A086C1 /* RegisterViewController.swift in Sources */,
+				A5F4DA8E29D486AB00A086C1 /* Application.swift in Sources */,
+				A5F4DA7F29D4868800A086C1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -244,6 +397,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				A5F4DA5A29D47C1A00A086C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A5F4DA8229D4868800A086C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5F4DA8329D4868800A086C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5F4DA8729D4868A00A086C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5F4DA8829D4868A00A086C1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -424,6 +593,62 @@
 			};
 			name = Release;
 		};
+		A5F4DA8B29D4868A00A086C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 078AD9D2E391E42FC5FCB3F2 /* Pods-MtsHackNew-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A47FAFQS28;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shift.MtsHackNew-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+			};
+			name = Debug;
+		};
+		A5F4DA8C29D4868A00A086C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D51EBD02C127F294272875CB /* Pods-MtsHackNew-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A47FAFQS28;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shift.MtsHackNew-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -441,6 +666,15 @@
 			buildConfigurations = (
 				A5F4DA6029D47C1A00A086C1 /* Debug */,
 				A5F4DA6129D47C1A00A086C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5F4DA8A29D4868A00A086C1 /* Build configuration list for PBXNativeTarget "MtsHackNew-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F4DA8B29D4868A00A086C1 /* Debug */,
+				A5F4DA8C29D4868A00A086C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
