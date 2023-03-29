@@ -4,7 +4,7 @@
 
 ## Другие части:
 * <a href=https://github.com/LaMileyn/hackaton>Веб-клиент</a>
-* <a https://github.com/crabulous/TrueTechHack>Backend-client</a>
+* <a href=https://github.com/crabulous/TrueTechHack>Backend-client</a>
 * <a href=https://www.figma.com/file/iaXHdRTE5LTgKpJXRo5tQa/>Figma</a>
 
 
